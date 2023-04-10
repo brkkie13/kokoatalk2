@@ -1,0 +1,52 @@
+.main-header {
+  padding: 15px var(--horizontal-margin);
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 29px;
+}
+
+.header span {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.header i {
+  font-size: 22px;
+  margin-left: 16px;
+}
+
+.setting-header {
+  width: 33.3%;
+}
+
+.setting-header__middle {
+  display: flex;
+  justify-content: center;
+}
+
+.setting-header__right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.setting-header span {
+  font-size: 23px;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.setting-header i {
+  font-size: 22px;
+}
+
+.setting-header__right i {
+  margin-left: 20px;
+}
+
+.chatroom-header-opacity {
+  background-color: #ABC1D1;
+}

@@ -1,0 +1,38 @@
+.badge {
+  background-color: var(--red-color);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge-newchat {
+  background-color: var(--red-color);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge-dot {
+  background-color: var(--red-color);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  /* color: white;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}

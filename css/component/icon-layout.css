@@ -1,0 +1,41 @@
+.icon-layout {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  margin-bottom: 25px;
+}
+
+.icon-layout__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  width: 100px;
+}
+
+.icon-layout__btn-opacity {
+  opacity: 0;
+  width: 100px;
+}
+
+.icon-layout i {
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+/* 아이콘 하단 폰트사이즈 */
+.icon-layout__text-of-find {
+  font-size: 15px;
+}
+
+.icon-layout__text-of-more {
+  font-size: 14px;
+  color: var(--gray-color-4);
+}
+
+.icon-layout__text-of-suggestions {
+  font-size: 14px;
+  color: var(--gray-color-3);
+}
+

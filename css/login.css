@@ -1,0 +1,78 @@
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.welcome-header h1{
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.welcome-header p {
+  font-size: 17px;
+  color: var(--gray-color-3);
+  margin-top: 30px;
+  
+}
+
+.login-form {
+  margin: 0 var(--horizontal-margin);
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.login-form input {
+  margin-bottom: 10px;
+  padding: 19px 0;
+  border: none;
+  border-bottom: 1px solid var(--gray-color-3);
+  /* transition: border-color 0.3s ease-in-out; */
+}
+
+.login-form input:focus { 
+  border-bottom: 1px solid tomato;
+}
+
+.login-form input::placeholder {
+  font-size: 18px;
+  color: var(--gray-color-3);
+}
+
+.login-form input[type="password"] {
+  margin-bottom: 40px;
+}
+
+/* 위와 동일한 코드
+.login-form input:nth-child(2) {
+  margin-bottom: 40px;
+}
+*/
+
+.login-form input[type="submit"] {
+  border-bottom: none;
+  border-radius: 7px;
+  background-color: var(--gray-color-1);
+  font-size: 18px;
+  cursor: pointer;
+  background-color: var(--yellow-color);
+  color: var(--brown-color);
+}
+
+.login-form input[value="Sign Up"] {
+  background-color: var(--brown-color);
+  color: var(--yellow-color);
+}
+/* .login-form input:not([type="submit"]) {
+
+} */
+
+
+.login-form a {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 300;
+}

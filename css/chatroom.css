@@ -1,0 +1,184 @@
+.chatroom-background-color {
+  background-color: #ABC1D1;
+}
+
+.chatroom-group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chatroom-date {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 8px 16px;
+  border-radius: 15px;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.profile-chatroom {
+  display: flex;
+  width: 100%;
+}
+
+.profile-chatroom img {
+  margin-right: 5px;
+}
+
+.profile-chatroom__right-username {
+  color: var(--gray-color-4);
+  display: block;
+  margin-bottom: 7px;
+}
+
+/* 텍스트박스 디자인 */
+
+.speech-bubble {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  margin: 5px 0;
+}
+
+.speech-bubble-yellow {
+  width: 100%;
+  justify-content: end;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.speech-bubble__text{
+  background-color: white;
+  padding: 12px;
+  border-radius: 15px;
+  font-size: 18px;
+  border-top-left-radius: 0px;
+}
+
+.speech-bubble__time{
+  color: var(--gray-color-4);
+  font-size: 13px;
+  margin: 0 5px;
+}
+
+.speech-bubble-yellow .speech-bubble__text {
+  background-color: var(--yellow-color);
+}
+
+
+/* 글자넣는 곳 디자인 */
+
+.chatroom-textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 7px 15px;
+}
+
+.chatroom-textbox i {
+  font-size: 28px;
+  margin-right: 15px;
+  color: var(--gray-color-3);
+}
+.chatroom-textbox input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 50px;
+  border: 1px solid var(--gray-color-2);
+  font-size: 18px;
+  background-color: var(--gray-color-1);
+}
+
+.chatroom-textbox-icon {
+  position: absolute;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.chatroom-textbox-icon i:last-child {
+  font-size: 35px;
+  color: var(--brown-color);
+}
+
+
+/* 키보드디자인 */
+
+.keyboard {
+  background-color: #D1D4D9;
+}
+
+.keyboard-btn {
+  padding: 7px 0;
+}
+.keyboard-btn__line{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.keyboard-btn__line button {
+  margin: 6px 3px;
+  background-color: white;
+  border-bottom: 2px solid var(--gray-color-3);
+  width: 40px;
+  height: 52px;
+  border-radius: 7px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keyboard-btn__line i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+}
+
+#keyboard-btn__line3-icon {
+  background-color: #ABB1BA;
+  width: 55px;
+}
+
+#keyboard-btn__line4-lefticon {
+  background-color: #ABB1BA;
+  width: 52px;
+  font-size: 21px;
+}
+
+#keyboard-btn__line4-space {
+  width: 185px;
+  font-size: 21px;
+}
+
+#keyboard-btn__line4-return {
+  background-color: #ABB1BA;
+  width: 90px;
+  font-size: 21px;
+}
+
+button:focus {
+  background-color: #ABB1BA;
+  
+}
+
+#keyboard-btn__line3-icon:focus {
+  background-color: white;
+}
+
+#keyboard-btn__line4-lefticon:focus {
+  background-color: white;
+}
+
+#keyboard-btn__line4-space:focus {
+  background-color: #ABB1BA;
+}
+
+#keyboard-btn__line4-return:focus {
+  background-color: white;
+}

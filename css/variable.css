@@ -1,0 +1,11 @@
+:root {
+  --gray-color-1: rgb(248, 248, 248);
+  --gray-color-2: rgb(200, 200, 200);
+  --gray-color-3: rgb(171, 171, 171);
+  --gray-color-4: rgb(113, 113, 113);
+  --black-color: rgb(0, 0, 0);
+  --red-color: rgb(235, 35, 0);
+  --yellow-color: rgb(255, 235, 103);
+  --brown-color: rgb(52, 21, 31);
+  --horizontal-margin: 20px;
+}
